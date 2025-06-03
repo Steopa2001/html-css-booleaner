@@ -46,3 +46,14 @@ h2 {
 .lorem-color {
   background-color: yellow;
 }
+
+.table-box {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+ .head-box {
+  background-color: #1FAAE6;
+  color: white;
+}
