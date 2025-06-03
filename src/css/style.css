@@ -11,8 +11,8 @@
 
 .logo {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 70%;
+  left: 9%;
   transform: translate(-50%, -50%);
   height: 60px; /* adatta alla dimensione reale */
 }
@@ -53,8 +53,20 @@ h2 {
   table-layout: fixed;
 }
 
+th, td {
+  text-align: left; /* 👈 assicura stesso allineamento */
+}
 
  .head-box {
   background-color: #1FAAE6;
   color: white;
+}
+
+.box-color, .box-color2 {
+  background-color: #B0E7F0;
+}
+
+.footer-text {
+  font-weight: bold;
+  color: #666;
 }
