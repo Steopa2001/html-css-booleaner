@@ -1,7 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .pattern-container {
@@ -43,4 +41,8 @@ h2 {
 .date {
   font-size: 14px;
   color: #999;
+}
+
+.lorem-color {
+  background-color: yellow;
 }
