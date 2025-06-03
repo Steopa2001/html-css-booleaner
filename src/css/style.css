@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pattern-container {
+  background-image: url('../../assets/img/pattern.png');
+  background-color:#4EA1FF;
+  height: 175px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60px; /* adatta alla dimensione reale */
+}
+
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 16px;
+  color: #666;
+}
+
+.text-author, .author {
+  font-weight: bold;
+  color: #999;
+}
+
+.author {
+  color: #2a7ae2; /* blu link */
+}
+
+.date {
+  font-size: 14px;
+  color: #999;
+}
